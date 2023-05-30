@@ -1,0 +1,1 @@
+oc get pod hello -o yaml
