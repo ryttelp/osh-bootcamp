@@ -1,0 +1,1 @@
+oc port-forward pod/nginx :8080

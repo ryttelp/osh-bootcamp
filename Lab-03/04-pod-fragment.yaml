@@ -1,0 +1,6 @@
+  containers:
+  - image: nexus01.centrala.kaczmarski.pl:8082/docker.io/paulbouwer/hello-kubernetes:1.10
+    name: hello
+    env:
+      - name: KUBERNETES_NAMESPACE
+        value: "namespace"

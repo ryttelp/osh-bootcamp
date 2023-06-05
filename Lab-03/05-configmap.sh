@@ -1,0 +1,1 @@
+oc create cm hello -n tutor-osh-p-ryttel --from-literal namespace=configmap-namepsace --dry-run=client -o yaml

@@ -1,0 +1,1 @@
+curl http://<pod ip>:8080
