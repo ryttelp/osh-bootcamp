@@ -1,0 +1,9 @@
+affinity: 
+  nodeAffinity: 
+    requiredDuringSchedulingIgnoredDuringExecution: 
+      nodeSelectorTerms: 
+      - matchExpressions: 
+        - key: kubernetes.io/hostname 
+          operator: In 
+          values: 
+          - <node name>  # zastąpić nazwą worker node'a
